@@ -13,34 +13,34 @@ This project is a Streamlit web application that allows users to chat with the c
 
 ## Repository Structure
 
-\`\`\`plaintext
-.
-├── .chroma
-├── src
-│   └── app.py
-├── .env
-├── .gitignore
-└── requirements.txt
-\`\`\`
+
+      .
+      ├── .chroma
+      ├── src
+      │   └── app.py
+      ├── .env
+      ├── .gitignore
+      └── requirements.txt
+
 
 ## Installation
 
 1. **Clone the repository**
-   \`\`\`bash
+   ```bash
    git clone <repository-url>
    cd <repository-directory>
-   \`\`\`
+   ```
 
 2. **Set up the environment**
    - Using `pip`:
-     \`\`\`bash
+     ```bash
      pip install -r requirements.txt
-     \`\`\`
+     ```
 
 3. **Run the application**
-   \`\`\`bash
+   ```bash
    streamlit run src/app.py
-   \`\`\`
+   ```
 
 ## Usage
 
